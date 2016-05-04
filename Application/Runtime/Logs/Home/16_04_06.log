@@ -1,0 +1,6 @@
+[ 2016-04-06T13:28:35+08:00 ] ::1 /
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+

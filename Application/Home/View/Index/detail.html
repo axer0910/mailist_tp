@@ -1,0 +1,211 @@
+<include file="header" />
+
+<div class="app" data-sidebar="locked">
+    <!-- top header -->
+    <header class="header navbar">
+        <div class="brand orange">
+            <a href="__URL__" class="navbar-brand">
+                <span class="heading-font">
+                    maimai<b>PiNK</b>
+                </span>
+            </a>
+        </div>
+    </header>
+    <!-- /top header -->
+
+    <section class="layout">
+        <!-- main content -->
+        <section class="main-content">
+            <!-- content wrapper -->
+            <div class="content-wrap">
+                <div class="row">
+                    <div class="col-md-12" style="margin-top: 60px">
+
+                    </div>
+                </div>
+               <div class="col-md-9 container-center container-background add-padding">
+                   <div class="col-md-9 container-center">
+                       <div class="row mg-b">
+                           <div class="col-xs-12">
+                               <a class="btn btn-success" href="__URL__?h={$data.id}">&nbsp;<&nbsp;返回列表</a>
+                               <h2 class="" style="font-family: SimHei;">{$data.track_name}</h2>
+                               <p id="track_id">{$data.track_roma}</p>
+                               <hr/>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-md-7 col-xs-12">
+                               <section class="panel">
+                                   <div class="panel-body no-padding" id="touhou-list">
+                                       <table class="table table-bordered table-striped no-margin">
+                                           <tbody>
+                                           <tr>
+                                               <td align="center"><img src="__ROOT__/Public/imglist/{$data.id}.png" /></td>
+                                               <td align="center">
+                                                   <br/>
+                                                   <strong>{$data.track_name}</strong>
+                                                   <br/>
+                                                   <p>{$data.track_artist}</p>
+                                               </td>
+                                           </tr>
+                                           <tr>
+                                               <td><strong>类别</strong></td>
+                                               <td>{$data.track_type}</td>
+                                           </tr>
+                                           <tr>
+                                               <td><strong>版本</strong></td>
+                                               <td>{$data.track_version}</td>
+                                           </tr>
+                                           <tr>
+                                               <td><strong>追加日</strong></td>
+                                               <td>{$data.track_appenddata}</td>
+                                           </tr>
+                                           <tr>
+                                               <td><strong>谱面制作（Expert）</strong></td>
+                                               <td>{$data.level_exwriter}</td>
+                                           </tr>
+                                           <tr>
+                                               <td ><strong>谱面制作（Master）</strong></td>
+                                               <td>{$data.level_mawriter}</td>
+                                           </tr>
+
+                                           </tbody>
+                                       </table>
+                                   </div>
+                               </section>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-md-11">
+                               <section class="panel">
+                                   <div class="panel-body no-padding table-responsive">
+                                       <table class="table table-bordered table-striped no-margin">
+                                           <tbody><tr>
+                                               <td style="width: 200px; text-align: center; background-color: rgb(255, 255, 255);">
+                                               </td><td style="width: 200px; text-align: center; background-color: rgb(211, 239, 254);">蓝
+                                           </td><td style="width: 200px; text-align: center; background-color: rgb(170, 232, 186);">绿
+                                           </td><td style="width: 200px; text-align: center; background-color: rgb(249, 230, 170);">黄
+                                           </td><td style="width: 200px; text-align: center; background-color: rgb(240, 187, 202);">红
+                                           </td><td style="width: 200px; text-align: center; background-color: rgb(201, 169, 203);">紫
+                                           </td><td style="width: 200px; text-align: center; background-color: rgb(220, 206, 221);">RE
+                                           </td></tr>
+                                           <tr>
+                                               <td style="width: 200px; text-align: center; background-color: rgb(229, 229, 229);">难易度
+                                               </td><td style="width: 200px; text-align: center;">{$data.level_easy}
+                                           </td><td style="width: 200px; text-align: center;">{$data.level_basic}
+                                           </td><td style="width: 200px; text-align: center;">{$data.level_advance}
+                                           </td><td style="width: 200px; text-align: center;">{$data.level_expert}
+                                           </td><td style="width: 200px; text-align: center;">{$data.level_master}
+                                           </td><td style="width: 200px; text-align: center;">{$data.level_re}
+                                           </td></tr>
+                                           <tr>
+                                               <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">TAP
+                                               </td><td style="text-align: center;">{$data.level_easytap}
+                                           </td><td style="text-align: center;">{$data.level_basictap}
+                                           </td><td style="text-align: center;">{$data.level_advancetap}
+                                           </td><td style="text-align: center;">{$data.level_experttap}
+                                           </td><td style="text-align: center;">{$data.level_mastertap}
+                                           </td><td style="text-align: center;">{$data.level_retap}
+                                           </td></tr>
+                                           <tr>
+                                               <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">HOLD
+                                               </td><td style="text-align: center;">{$data.level_easyhold}
+                                           </td><td style="text-align: center;">{$data.level_basichold}
+                                           </td><td style="text-align: center;">{$data.level_advancehold}
+                                           </td><td style="text-align: center;">{$data.level_experthold}
+                                           </td><td style="text-align: center;">{$data.level_masterhold}
+                                           </td><td style="text-align: center;">{$data.level_rehold}
+                                           </td></tr>
+                                           <tr>
+                                               <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">SLIDE
+                                               </td><td style="text-align: center;">{$data.level_easyslide}
+                                           </td><td style="text-align: center;">{$data.level_basicslide}
+                                           </td><td style="text-align: center;">{$data.level_advanceslide}
+                                           </td><td style="text-align: center;">{$data.level_expertslide}
+                                           </td><td style="text-align: center;">{$data.level_masterslide}
+                                           </td><td style="text-align: center;">{$data.level_reslide}
+                                           </td></tr>
+                                           <tr>
+                                               <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">BREAK
+                                               </td><td style="text-align: center;">{$data.level_easybreak}
+                                           </td><td style="text-align: center;">{$data.level_basicbreak}
+                                           </td><td style="text-align: center;">{$data.level_advancebreak}
+                                           </td><td style="text-align: center;">{$data.level_expertbreak}
+                                           </td><td style="text-align: center;">{$data.level_masterbreak}
+                                           </td><td style="text-align: center;">{$data.level_rebreak}
+                                           </td><tr>
+                                               <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">COMBO
+                                               </td><td style="text-align: center;">{$data.level_easycombo}
+                                           </td><td style="text-align: center;">{$data.level_basiccombo}
+                                           </td><td style="text-align: center;">{$data.level_advancecombo}
+                                           </td><td style="text-align: center;">{$data.level_expertcombo}
+                                           </td><td style="text-align: center;">{$data.level_mastercombo}
+                                           </td><td style="text-align: center;">{$data.level_recombo}
+                                               <td/><tr>
+                                               <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">理论值(%)
+                                               </td><td style="text-align: center;">{$data.level_easyachievement}
+                                           </td><td style="text-align: center;">{$data.level_basicachievement}
+                                           </td><td style="text-align: center;">{$data.level_advanceachievement}
+                                           </td><td style="text-align: center;">{$data.level_expertachievement}
+                                           </td><td style="text-align: center;">{$data.level_masterachievement}
+                                           </td><td style="text-align: center;">{$data.level_reachievement}
+                                           </td></tr></tbody></table>
+                                   </div>
+                               </section>
+                           </div>
+                           <div class="col-md-11">
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-md-11 " id="res">
+                               <h4>谱面视频施工中_(:з」∠)_</h4>
+                               <p>比较多要慢慢上传_(:з」∠)_</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+            </div>
+            <!-- /content wrapper -->
+        </section>
+        <!-- /main content -->
+
+    </section>
+
+</div>
+
+<include file="footer" />
+
+<script>
+    function get_res(){
+        $.ajax({
+            type:"POST",
+            url:"__URL__/get_res",
+            dataType:"json",
+            data:{
+                track_id:$("#track_id").html()
+            },
+            success:function(data){
+                var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
+                if (data.msg == -1){
+                    htmls.push('<p>暂时没有添加铺面视频_(:з」∠)_</p>');
+                }
+                else{
+                    htmls.push('<video src="__URL__/get_video/maidata_id/'+data[0].maidata_id+'"  controls="controls">');
+                    htmls.push('Your browser does not support the video tag.');
+                    htmls.push('</video>');
+                    htmls.push('<a href="__URL__/download_video/maidata_id/'+data[0].maidata_id+'" class="btn btn-success btn-block add-margin-xs">下载该视频</a>')
+                }
+                var div = '#res';
+                $(div).html(htmls.join(''));
+            },
+            error:function(jqXHR){
+                alert('好像获取资源失败了'+jqXHR.status);
+            }
+        })
+
+    }
+
+    $(document).ready(function(){
+        //get_res();
+    })
+</script>

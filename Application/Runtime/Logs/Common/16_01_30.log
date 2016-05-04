@@ -1,0 +1,42 @@
+[ 2016-01-30T22:05:05+08:00 ] ::1 /mailist_tp/index.php/Public/header
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-01-30T22:07:00+08:00 ] ::1 /mailist_tp/index.php/imglist/%E6%98%8E%E6%98%9F%E3%83%AD%E3%82%B1%E3%83%83%E3%83%88.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+ERR: 无法加载模块:Imglist
+
+[ 2016-01-30T22:08:16+08:00 ] ::1 /mailist_tp/index.php/index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+ERR: 无法加载模块:Index
+
+[ 2016-01-30T22:10:09+08:00 ] ::1 /mailist_tp/index.php/index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+ERR: 无法加载模块:Index
+
+[ 2016-01-30T22:10:11+08:00 ] ::1 /mailist_tp/index.php/index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Index
+
+[ 2016-01-30T22:10:19+08:00 ] ::1 /mailist_tp/index.php/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+ERR: 无法加载模块:Index
+
+[ 2016-01-30T22:10:21+08:00 ] ::1 /mailist_tp/index.php/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Index
+

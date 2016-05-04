@@ -1,0 +1,102 @@
+[ 2016-03-28T22:54:42+08:00 ] ::1 /?XDEBUG_SESSION_START=18599
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maidata`  [ RunTime:0.0045s ]
+
+[ 2016-03-28T22:55:24+08:00 ] ::1 /?XDEBUG_SESSION_START=12442
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maidata`  [ RunTime:0.0051s ]
+
+[ 2016-03-28T22:55:47+08:00 ] ::1 /?XDEBUG_SESSION_START=17048
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maidata`  [ RunTime:0.0043s ]
+
+[ 2016-03-28T23:03:45+08:00 ] ::1 /?XDEBUG_SESSION_START=19897
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `maidata`  [ RunTime:0.0041s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+
+[ 2016-03-28T23:04:45+08:00 ] ::1 /?XDEBUG_SESSION_START=12489
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `maidata`  [ RunTime:0.0049s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\wamp\www\mailist_tp\Application\Home\Controller\IndexController.class.php 第 23 行.
+
+[ 2016-03-28T23:06:49+08:00 ] ::1 /?XDEBUG_SESSION_START=13259
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `maidata`  [ RunTime:0.0040s ]
+

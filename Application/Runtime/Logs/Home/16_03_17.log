@@ -1,0 +1,508 @@
+[ 2016-03-17T14:16:01+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006580s ]
+
+[ 2016-03-17T14:16:01+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = '東方project'  [ RunTime:0.0013s ]
+
+[ 2016-03-17T14:16:01+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'GAME'  [ RunTime:0.0015s ]
+
+[ 2016-03-17T14:16:01+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'ANIME'  [ RunTime:0.0011s ]
+
+[ 2016-03-17T14:16:01+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'niconico'  [ RunTime:0.0015s ]
+
+[ 2016-03-17T14:16:01+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'COLLABO'  [ RunTime:0.0011s ]
+
+[ 2016-03-17T14:16:01+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'JOYPOLIS'  [ RunTime:0.0022s ]
+
+[ 2016-03-17T14:16:01+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'ORIGINAL'  [ RunTime:0.0014s ]
+
+[ 2016-03-17T14:16:01+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'POPS'  [ RunTime:0.0011s ]
+
+[ 2016-03-17T14:16:01+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'VARIETY'  [ RunTime:0.0013s ]
+
+[ 2016-03-17T14:16:11+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2016-03-17T14:16:12+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'GAME'  [ RunTime:0.0014s ]
+
+[ 2016-03-17T14:16:12+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'ANIME'  [ RunTime:0.0014s ]
+
+[ 2016-03-17T14:16:12+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'COLLABO'  [ RunTime:0.0018s ]
+
+[ 2016-03-17T14:16:12+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'niconico'  [ RunTime:0.0015s ]
+
+[ 2016-03-17T14:16:12+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000333s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'JOYPOLIS'  [ RunTime:0.0015s ]
+
+[ 2016-03-17T14:16:12+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = '東方project'  [ RunTime:0.0017s ]
+
+[ 2016-03-17T14:16:12+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'ORIGINAL'  [ RunTime:0.0016s ]
+
+[ 2016-03-17T14:16:12+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'POPS'  [ RunTime:0.0024s ]
+
+[ 2016-03-17T14:16:12+08:00 ] ::1 /index.php/Home/Index/readlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `maidata` WHERE `track_type` = 'VARIETY'  [ RunTime:0.0016s ]
+
+[ 2016-03-17T14:17:55+08:00 ] ::1 /index.php/Home/Index/detail/id/141
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maidata` WHERE `id` = 141 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000787s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2016-03-17T14:17:55+08:00 ] ::1 /index.php/Home/Index/get_res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `mai_res` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `mai_res` WHERE `maidata_id` = 141  [ RunTime:0.0004s ]
+
+[ 2016-03-17T14:18:00+08:00 ] ::1 /index.php/Home/Index/detail/id/142
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `maidata` WHERE `id` = 142 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2016-03-17T14:18:00+08:00 ] ::1 /index.php/Home/Index/get_res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `mai_res` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mai_res` WHERE `maidata_id` = 142  [ RunTime:0.0003s ]
+
+[ 2016-03-17T14:18:37+08:00 ] ::1 /index.php/Home/Index/detail/id/244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maidata` WHERE `id` = 244 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2016-03-17T14:18:37+08:00 ] ::1 /index.php/Home/Index/get_res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `mai_res` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `mai_res` WHERE `maidata_id` = 244  [ RunTime:0.0004s ]
+
+[ 2016-03-17T14:18:39+08:00 ] ::1 /index.php/Home/Index/detail/id/242
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `maidata` WHERE `id` = 242 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000748s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-03-17T14:18:39+08:00 ] ::1 /index.php/Home/Index/get_res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `mai_res` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `mai_res` WHERE `maidata_id` = 242  [ RunTime:0.0004s ]
+
+[ 2016-03-17T14:18:41+08:00 ] ::1 /index.php/Home/Index/detail/id/233
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `maidata` WHERE `id` = 233 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2016-03-17T14:18:41+08:00 ] ::1 /index.php/Home/Index/get_res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `mai_res` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `mai_res` WHERE `maidata_id` = 233  [ RunTime:0.0003s ]
+
+[ 2016-03-17T14:18:44+08:00 ] ::1 /index.php/Home/Index/detail/id/212
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `maidata` WHERE `id` = 212 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2016-03-17T14:18:44+08:00 ] ::1 /index.php/Home/Index/get_res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000213s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `mai_res` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `mai_res` WHERE `maidata_id` = 212  [ RunTime:0.0003s ]
+
+[ 2016-03-17T14:18:46+08:00 ] ::1 /index.php/Home/Index/detail/id/186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `maidata` WHERE `id` = 186 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-03-17T14:18:46+08:00 ] ::1 /index.php/Home/Index/get_res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `mai_res` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `mai_res` WHERE `maidata_id` = 186  [ RunTime:0.0003s ]
+
+[ 2016-03-17T14:18:53+08:00 ] ::1 /index.php/Home/Index/detail/id/266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `maidata` WHERE `id` = 266 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000829s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2016-03-17T14:18:53+08:00 ] ::1 /index.php/Home/Index/get_res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `mai_res` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `mai_res` WHERE `maidata_id` = 266  [ RunTime:0.0003s ]
+
+[ 2016-03-17T14:19:11+08:00 ] ::1 /index.php/Home/Index/detail/id/269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `maidata` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `maidata` WHERE `id` = 269 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2016-03-17T14:19:11+08:00 ] ::1 /index.php/Home/Index/get_res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `mai_res` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `mai_res` WHERE `maidata_id` = 269  [ RunTime:0.0003s ]
+

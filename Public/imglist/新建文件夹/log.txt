@@ -1,0 +1,1007 @@
+﻿C:\Python27\python.exe D:/py/mailist/test.py
+1 of 314
+processing 1/3の純情な感情
+[Errno 2] : ''
+error
+2 of 314
+processing ココロオドル
+[Errno 2] : ''
+error
+3 of 314
+processing ニブンノイチ
+saved
+4 of 314
+processing ファミリーパーティー
+saved
+5 of 314
+processing つけまつける
+saved
+6 of 314
+processing CANDY CANDY
+saved
+7 of 314
+processing サラバ、愛しき悲しみたちよ
+saved
+8 of 314
+processing サブリナ
+saved
+9 of 314
+processing RPG
+saved
+10 of 314
+processing 女々しくて
+saved
+11 of 314
+processing SPELL MAGIC
+saved
+12 of 314
+processing Get Off of My Way
+saved
+13 of 314
+processing POP STAR
+saved
+14 of 314
+processing LOVEドッきゅん♥
+saved
+15 of 314
+processing Love or Lies
+saved
+16 of 314
+processing jelly
+('http protocol error', 0, 'got a bad status line', None)
+error
+17 of 314
+processing 美しく燃える森
+saved
+18 of 314
+processing Love You
+saved
+19 of 314
+processing come again
+saved
+20 of 314
+processing Future
+saved
+21 of 314
+processing みかんのうた
+saved
+22 of 314
+processing SAVIOR OF SONG
+[Errno 2] : ''
+error
+23 of 314
+processing 若い力 -SEGA HARD GIRLS MIX-
+[Errno 2] : ''
+error
+24 of 314
+processing シリウス
+[Errno 2] : ''
+error
+25 of 314
+processing 紅蓮の弓矢
+saved
+26 of 314
+processing オルフェ
+[Errno 2] : ''
+error
+27 of 314
+processing カノン
+[Errno 2] : ''
+error
+28 of 314
+processing Can Do
+[Errno 2] : ''
+error
+29 of 314
+processing The Other self
+[Errno 2] : ''
+error
+30 of 314
+processing naraku within
+saved
+31 of 314
+processing ほとんど違法行為
+saved
+32 of 314
+processing Stand Up!!!!
+saved
+33 of 314
+processing おいでよ！妖精の森
+saved
+34 of 314
+processing リクライム
+saved
+35 of 314
+processing 恋のヒメヒメぺったんこ 
+saved
+36 of 314
+processing コネクト
+saved
+37 of 314
+processing GO!!!
+saved
+38 of 314
+processing カルマ
+[Errno socket error] [Errno 10060] 
+error
+39 of 314
+processing リライト
+saved
+40 of 314
+processing READY STEADY GO
+saved
+41 of 314
+processing Butter-Fly
+saved
+42 of 314
+processing 創聖のアクエリオン
+saved
+43 of 314
+processing 残酷な天使のテーゼ
+saved
+44 of 314
+processing 恋愛サーキュレーション
+saved
+45 of 314
+processing 君の知らない物語
+saved
+46 of 314
+processing Our Fighting
+[Errno 2] : ''
+error
+47 of 314
+processing コトバ・カラフル
+saved
+48 of 314
+processing キズナの物語
+saved
+49 of 314
+processing かせげ！ジャリンコヒーロー
+saved
+50 of 314
+processing awake
+saved
+51 of 314
+processing 時空を超えて久しぶり！
+saved
+52 of 314
+processing Her Dream Is To Be A Fantastic Sorceress
+saved
+53 of 314
+processing Save This World νMIX
+saved
+54 of 314
+processing Living Universe
+saved
+55 of 314
+processing Ignite Infinity
+saved
+56 of 314
+processing Terminal Storm
+saved
+57 of 314
+processing ココロスキャンのうた
+saved
+58 of 314
+processing Space Harrier Main Theme［Reborn］
+saved
+59 of 314
+processing Quartet Theme［Reborn］
+saved
+60 of 314
+processing Sky High［Reborn］
+saved
+61 of 314
+processing Like the Wind［Reborn］
+saved
+62 of 314
+processing YA・DA・YO［Reborn］
+saved
+63 of 314
+processing 天国と地獄
+saved
+64 of 314
+processing きみのためなら死ねる
+saved
+65 of 314
+processing 怪盗Rのテーマ
+saved
+66 of 314
+processing マリアをはげませ
+saved
+67 of 314
+processing SHOW TIME
+saved
+68 of 314
+processing Natural Flow
+saved
+69 of 314
+processing Crush On You
+saved
+70 of 314
+processing Sun Dance
+saved
+71 of 314
+processing In Chaos
+saved
+72 of 314
+processing Beat Of Mind
+saved
+73 of 314
+processing The Great Journey
+saved
+74 of 314
+processing Burning Hearts ～炎のANGEL～
+saved
+75 of 314
+processing JACKY［Remix］
+saved
+76 of 314
+processing Live ＆ Learn
+saved
+77 of 314
+processing Back 2 Back
+saved
+78 of 314
+processing Windy Hill -Zone 1
+saved
+79 of 314
+processing City Escape：Act1
+saved
+80 of 314
+processing Rooftop Run：Act1
+saved
+81 of 314
+processing Reach For The Stars
+saved
+82 of 314
+processing Urban Crusher［Remix］
+saved
+83 of 314
+processing Catch The Future
+saved
+84 of 314
+processing Outlaw&#039;s Lullaby
+saved
+85 of 314
+processing Brand-new Japanesque
+saved
+86 of 314
+processing 鼓動
+saved
+87 of 314
+processing 神室雪月花
+saved
+88 of 314
+processing KONNANじゃないっ！
+saved
+89 of 314
+processing 超絶！Superlative
+saved
+90 of 314
+processing 采配の刻 Power of order
+saved
+91 of 314
+processing 源平大戦絵巻テーマソング
+saved
+92 of 314
+processing DO RORO DERODERO ON DO RORO
+saved
+93 of 314
+processing 檄！帝国華撃団（改）
+saved
+94 of 314
+processing 御旗のもとに
+saved
+95 of 314
+processing 地上の戦士
+saved
+96 of 314
+processing 円舞曲、君に
+saved
+97 of 314
+processing Mysterious Destiny
+saved
+98 of 314
+processing Riders Of The Light
+saved
+99 of 314
+processing セガサターン起動音［H.］［Remix］
+saved
+100 of 314
+processing Pursuing My True Self
+[Errno 2] : ''
+error
+101 of 314
+processing Signs Of Love(“Never More”ver.)
+[Errno 2] : ''
+error
+102 of 314
+processing specialist(“Never More”ver.)
+[Errno 2] : ''
+error
+103 of 314
+processing Time To Make History(AKIRA YAMAOKA Remix)
+[Errno 2] : ''
+error
+104 of 314
+processing Change Our MIRAI!
+[Errno 2] : ''
+error
+105 of 314
+processing 悪戯
+[Errno 2] : ''
+error
+106 of 314
+processing 言ノ葉カルマ
+saved
+107 of 314
+processing welcome to maimai!! with マイマイマー
+[Errno 2] : ''
+error
+108 of 314
+processing ナミダと流星
+[Errno 2] : ''
+error
+109 of 314
+processing MIRROR of MAGIC
+saved
+110 of 314
+processing Cosmic Train
+saved
+111 of 314
+processing BETTER CHOICE
+saved
+112 of 314
+processing Monochrome Rainbow
+saved
+113 of 314
+processing Dreampainter
+saved
+114 of 314
+processing ピーマンたべたら
+[Errno 2] : ''
+error
+115 of 314
+processing planet dancer
+[Errno 2] : ''
+error
+116 of 314
+processing ぐるぐるWASH！コインランドリー・ディスコ
+saved
+117 of 314
+processing Danza zandA
+saved
+118 of 314
+processing Pixel Voyage
+saved
+119 of 314
+processing maimaiちゃんのテーマ
+saved
+120 of 314
+processing みんなのマイマイマー
+saved
+121 of 314
+processing 犬日和。
+saved
+122 of 314
+processing ネコ日和。
+saved
+123 of 314
+processing Sweets×Sweets
+saved
+124 of 314
+processing True Love Song
+saved
+125 of 314
+processing Color My World
+saved
+126 of 314
+processing Endless World
+saved
+127 of 314
+processing 泣き虫O&#039;clock
+saved
+128 of 314
+processing 炎歌 -ほむらうた-
+saved
+129 of 314
+processing ぴぴぱぷぅ！
+saved
+130 of 314
+processing オレンジの夏
+saved
+131 of 314
+processing 虹と太陽
+saved
+132 of 314
+processing ジングルベル
+saved
+133 of 314
+processing BaBan!!　－甘い罠－
+saved
+134 of 314
+processing Backyun!　－悪い女－
+saved
+135 of 314
+processing 火炎地獄
+('http protocol error', 0, 'got a bad status line', None)
+error
+136 of 314
+processing Beat of getting entangled
+saved
+137 of 314
+processing Get Happy
+saved
+138 of 314
+processing System “Z”
+saved
+139 of 314
+processing Blew Moon
+saved
+140 of 314
+processing Caliburne ~Story of the Legendary sword~
+[Errno 2] : ''
+error
+141 of 314
+processing Aiolos
+[Errno 2] : ''
+error
+142 of 314
+processing LANCE
+[Errno 2] : ''
+error
+143 of 314
+processing Oshama Scramble!
+[Errno 2] : ''
+error
+144 of 314
+processing D✪N’T ST✪P R✪CKIN’
+[Errno 2] : ''
+error
+145 of 314
+processing ガラテアの螺旋
+[Errno 2] : ''
+error
+146 of 314
+processing oboro
+saved
+147 of 314
+processing Dragoon
+saved
+148 of 314
+processing CYCLES
+saved
+149 of 314
+processing End of Twilight
+saved
+150 of 314
+processing Heartbeats
+saved
+151 of 314
+processing Life Feels Good
+saved
+152 of 314
+processing MYTHOS
+saved
+153 of 314
+processing JUMPIN’ JUMPIN’
+saved
+154 of 314
+processing L’épilogue
+saved
+155 of 314
+processing LUCIA
+saved
+156 of 314
+processing Death Scythe
+saved
+157 of 314
+processing BREAK YOU!!
+saved
+158 of 314
+processing 記憶、記録
+saved
+159 of 314
+processing We Gonna Party
+saved
+160 of 314
+processing Lionheart
+saved
+161 of 314
+processing Spin me harder
+('http protocol error', 0, 'got a bad status line', None)
+error
+162 of 314
+processing Streak
+saved
+163 of 314
+processing Night Fly
+saved
+164 of 314
+processing Feel My Fire
+saved
+165 of 314
+processing Nerverakes
+saved
+166 of 314
+processing Sprintrances
+saved
+167 of 314
+processing Turn around
+saved
+168 of 314
+processing Link
+saved
+169 of 314
+processing Black Out
+saved
+170 of 314
+processing Fragrance
+saved
+171 of 314
+processing FEEL ALIVE
+saved
+172 of 314
+processing air&#039;s gravity
+saved
+173 of 314
+processing Acceleration
+saved
+174 of 314
+processing Starlight Disco
+saved
+175 of 314
+processing ウミユリ海底譚
+[Errno 2] : ''
+error
+176 of 314
+processing クローバー♣クラブ
+[Errno 2] : ''
+error
+177 of 314
+processing どういうことなの！？
+[Errno 2] : ''
+error
+178 of 314
+processing どうしてこうなった
+[Errno 2] : ''
+error
+179 of 314
+processing Sweet Devil
+[Errno 2] : ''
+error
+180 of 314
+processing 六兆年と一夜物語
+[Errno 2] : ''
+error
+181 of 314
+processing デッドレッドガールズ
+[Errno 2] : ''
+error
+182 of 314
+processing ロストワンの号哭
+[Errno 2] : ''
+error
+183 of 314
+processing みくみくにしてあげる♪【してやんよ】
+[Errno 2] : ''
+error
+184 of 314
+processing 赤心性：カマトト荒療治
+[Errno 2] : ''
+error
+185 of 314
+processing おこちゃま戦争
+saved
+186 of 314
+processing 脳漿炸裂ガール
+saved
+187 of 314
+processing 天ノ弱
+saved
+188 of 314
+processing 不毛！
+saved
+189 of 314
+processing shake it！
+saved
+190 of 314
+processing Heart Beats
+saved
+191 of 314
+processing ダブルラリアット
+[Errno socket error] [Errno 10060] 
+error
+192 of 314
+processing アゲアゲアゲイン
+saved
+193 of 314
+processing M.S.S.Planet 
+saved
+194 of 314
+processing magician&#039;s operation
+saved
+195 of 314
+processing ハロ／ハワユ
+saved
+196 of 314
+processing 深海少女
+saved
+197 of 314
+processing ロミオとシンデレラ
+saved
+198 of 314
+processing いーあるふぁんくらぶ
+saved
+199 of 314
+processing セツナトリップ
+saved
+200 of 314
+processing 放課後ストライド
+saved
+201 of 314
+processing *ハロー、プラネット。
+[Errno 22] invalid mode ('wb') or filename: u'd:/imglist/*\u30cf\u30ed\u30fc\u3001\u30d7\u30e9\u30cd\u30c3\u30c8\u3002.png'
+error
+202 of 314
+processing 39
+[Errno socket error] [Errno 10060] 
+error
+203 of 314
+processing おじゃま虫
+[Errno 2] : ''
+error
+204 of 314
+processing むかしむかしのきょうのぼく
+saved
+205 of 314
+processing 二息歩行
+saved
+206 of 314
+processing 弱虫モンブラン
+saved
+207 of 314
+processing モザイクロール
+saved
+208 of 314
+processing 毒占欲
+saved
+209 of 314
+processing 妄想税
+[Errno 2] : ''
+error
+210 of 314
+processing ストリーミングハート
+saved
+211 of 314
+processing SPiCa
+saved
+212 of 314
+processing からくりピエロ
+saved
+213 of 314
+processing リリリリ★バーニングナイト
+saved
+214 of 314
+processing イアイア★ナイトオブデザイア
+saved
+215 of 314
+processing ルカルカ★ナイトフィーバー
+saved
+216 of 314
+processing メグメグ☆ファイアーエンドレスナイト
+saved
+217 of 314
+processing アンハッピーリフレイン
+[Errno 2] : ''
+error
+218 of 314
+processing 裏表ラバーズ
+saved
+219 of 314
+processing ローリンガール
+saved
+220 of 314
+processing ワールズエンド・ダンスホール
+[Errno socket error] [Errno 10060] 
+error
+221 of 314
+processing マトリョシカ
+saved
+222 of 314
+processing パンダヒーロー
+saved
+223 of 314
+processing ゴーゴー幽霊船
+saved
+224 of 314
+processing トルコ行進曲 - オワタ＼(^o^)／
+saved
+225 of 314
+processing Nyan Cat EX
+saved
+226 of 314
+processing ダンシング☆サムライ
+saved
+227 of 314
+processing おちゃめ機能
+saved
+228 of 314
+processing ぽっぴっぽー
+saved
+229 of 314
+processing BAD∞END∞NIGHT
+saved
+230 of 314
+processing ハッピーシンセサイザ
+saved
+231 of 314
+processing スイートマジック
+saved
+232 of 314
+processing メランコリック
+saved
+233 of 314
+processing ZIGG-ZAGG
+saved
+234 of 314
+processing I ♥
+saved
+235 of 314
+processing Tell Your World
+saved
+236 of 314
+processing Sweetie×2
+saved
+237 of 314
+processing 教えて!!魔法のLyric
+saved
+238 of 314
+processing はじめまして地球人さん
+[Errno 2] : ''
+error
+239 of 314
+processing 腐れ外道とチョコレゐト
+saved
+240 of 314
+processing 夜咄ディセイブ
+saved
+241 of 314
+processing カゲロウデイズ
+saved
+242 of 314
+processing 千本桜
+saved
+243 of 314
+processing Link(Circle of friends)
+saved
+244 of 314
+processing One Step Ahead
+saved
+245 of 314
+processing Yet Another ”drizzly rain”
+[Errno 2] : ''
+error
+246 of 314
+processing 四次元跳躍機関
+[Errno 2] : ''
+error
+247 of 314
+processing ケロ⑨destiny
+[Errno 2] : ''
+error
+248 of 314
+processing sweet little sister
+saved
+249 of 314
+processing 東方スイーツ！～鬼畜姉妹と受難メイド～
+[Errno 2] : ''
+error
+250 of 314
+processing ってゐ！～えいえんてゐVer～
+saved
+251 of 314
+processing 究極焼肉レストラン！お燐の地獄亭！
+[Errno 2] : ''
+error
+252 of 314
+processing チルノのパーフェクトさんすう教室
+saved
+253 of 314
+processing 患部で止まってすぐ溶ける～狂気の優曇華院
+saved
+254 of 314
+processing 魔理沙は大変なものを盗んでいきました
+saved
+255 of 314
+processing お嫁にしなさいっ！
+saved
+256 of 314
+processing キャプテン・ムラサのケツアンカー
+[Errno 2] : ''
+error
+257 of 314
+processing 明星ロケット
+saved
+258 of 314
+processing 緋色のDance
+saved
+259 of 314
+processing Grip ＆ Break down!!
+saved
+260 of 314
+processing Cosmic Magic Shooter
+[Errno 2] : ''
+error
+261 of 314
+processing しゅわスパ大作戦☆
+saved
+262 of 314
+processing 全人類ノ非想天則
+saved
+263 of 314
+processing エピクロスの虹はもう見えない
+saved
+264 of 314
+processing 神々の祈り
+('http protocol error', 0, 'got a bad status line', None)
+error
+265 of 314
+processing Endless, Sleepless Night
+saved
+266 of 314
+processing 待チ人ハ来ズ。
+saved
+267 of 314
+processing 幻想のサテライト
+saved
+268 of 314
+processing 響縁
+[Errno 2] : ''
+error
+269 of 314
+processing シアワセうさぎ
+saved
+270 of 314
+processing 最速最高シャッターガール 
+saved
+271 of 314
+processing ウサテイ
+saved
+272 of 314
+processing 最終鬼畜妹・一部声
+[Errno 2] : ''
+error
+273 of 314
+processing Help me, ERINNNNNN!!
+saved
+274 of 314
+processing ナイト・オブ・ナイツ
+saved
+275 of 314
+processing Bad Apple!! feat nomico
+saved
+276 of 314
+processing L9
+saved
+277 of 314
+processing B.B.K.K.B.K.K.
+saved
+278 of 314
+processing DRAGONLADY
+saved
+279 of 314
+processing Jack-the-Ripper◆
+saved
+280 of 314
+processing 林檎華憐歌
+saved
+281 of 314
+processing バラライカ
+saved
+282 of 314
+processing おても☆Yan
+[Errno 2] : ''
+error
+283 of 314
+processing ソーラン☆節
+[Errno socket error] [Errno 10060] 
+error
+284 of 314
+processing 炭★坑★節
+saved
+285 of 314
+processing デコボコ体操第二
+saved
+286 of 314
+processing NIGHT OF FIRE
+saved
+287 of 314
+processing ｳｯｰｳｯｰｳﾏｳﾏ(ﾟ∀ﾟ)
+saved
+288 of 314
+processing YATTA!
+saved
+289 of 314
+processing Tachyon
+saved
+290 of 314
+processing galaxias!
+saved
+291 of 314
+processing レッツゴー!陰陽師
+saved
+292 of 314
+processing GO MY WAY!!
+saved
+293 of 314
+processing THE IDOLM@STER 2nd-mix
+saved
+294 of 314
+processing The world is all one !!
+saved
+295 of 314
+processing タカハせ！名人マン
+saved
+296 of 314
+processing maiム・maiム feat.週刊少年マガジン
+saved
+297 of 314
+processing DADDY MULK -Groove remix-
+saved
+298 of 314
+processing 電車で電車でGO!GO!GO!GC! -GMT remix-
+saved
+299 of 314
+processing RIDGE RACER STEPS -GMT remix-
+saved
+300 of 314
+processing ファンタジーゾーン OPA-OPA! -GMT remix-
+saved
+301 of 314
+processing オパ! オパ! RACER -GMT mashup-
+saved
+302 of 314
+processing 電車で電車でOPA!OPA!OPA! -GMT mashup-
+saved
+303 of 314
+processing リッジでリッジでGO!GO!GO! -GMT mashup-
+saved
+304 of 314
+processing FLOWER
+saved
+305 of 314
+processing Scars of FAUNA
+saved
+306 of 314
+processing きたさいたま2000
+saved
+307 of 314
+processing Ignis Danse
+saved
+308 of 314
+processing Got more raves？
+saved
+309 of 314
+processing FUJIN Rumble
+saved
+310 of 314
+processing Garakuta Doll Play
+saved
+311 of 314
+processing VERTeX
+saved
+312 of 314
+processing セガサターン起動音
+[Errno 2] : ''
+error
+313 of 314
+processing 犬日和。
+saved
+314 of 314
+processing 全世界共通リズム感テスト
+[Errno 2] : ''
+error
+
+Process finished with exit code 0
