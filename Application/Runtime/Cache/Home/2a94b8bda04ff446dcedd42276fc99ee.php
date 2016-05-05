@@ -162,7 +162,7 @@
                             <div class="panel panel-heading no-margin">About</div>
                             <div class="panel-body">
                                 <p><i class="fa fa-circle text-primary mg-r-xs"></i>一个maimai的自制wiki,数据摘自fc2上maimai的数据</p>
-                                <p><i class="fa fa-circle text-primary mg-r-xs"></i>内容更新到orange:)</p>
+                                <p><i class="fa fa-circle text-primary mg-r-xs"></i>内容更新到pink（2016年4月）:)</p>
                                 <p><i class="fa fa-circle text-primary mg-r-xs"></i><a href="http://weibo.com/axer1226" style="color: #0480be" target="_blank">微博火石axer</a>有什么想添加的或者建议可以私信:)</p>
                                 <p><i class="fa fa-circle text-primary mg-r-xs"></i><a href="http://www.marisago.com" style="color: #0480be" target="_blank">顺便看手元的话youtube是最好啦，想上可以试试po主的小梯子，自动出墙也不是什么问题:)</a></p>
                             </div>

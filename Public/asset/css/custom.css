@@ -101,7 +101,7 @@ video {
 
 .app > .header{
 
-    background: rgba(255, 65, 87, 0.6) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+    background: rgba(255, 65, 87, 0.7) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
     box-shadow: 0 0 0 2px
     top:auto;
     position: fixed;
@@ -111,12 +111,12 @@ video {
 
 
 .app > .header .brand{
-    background: rgba(255, 65, 87, 0.8) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+    background: rgba(255, 65, 87, 0) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
 
 }
 
 #about > .panel-warning {
-    border-color: rgba(255, 65, 87, 0.8);
+    border-color: rgba(255, 65, 87, 1);
 }
 
 #about > .panel-warning .panel-heading{
@@ -142,4 +142,5 @@ video {
     opacity: .6;
     filter: Alpha(opacity=60);
 }
+
 
