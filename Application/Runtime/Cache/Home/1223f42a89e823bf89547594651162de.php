@@ -46,7 +46,7 @@
     <!-- top header -->
     <header class="header navbar">
         <div class="brand orange">
-            <a href="/index.php/home/index" class="navbar-brand">
+            <a href="/index.php/Home/Index" class="navbar-brand">
                 <span class="heading-font">
                     maimai<b>PiNK</b>
                 </span>
@@ -69,7 +69,7 @@
                    <div class="col-md-9 container-center">
                        <div class="row mg-b">
                            <div class="col-xs-12">
-                               <a class="btn btn-success" href="/index.php/home/index?h=<?php echo ($data["id"]); ?>">&nbsp;<&nbsp;返回列表</a>
+                               <a class="btn btn-success" href="/index.php/Home/Index?h=<?php echo ($data["id"]); ?>" id="back_button">&nbsp;<&nbsp;返回列表</a>
                                <h2 class="" style="font-family: SimHei;"><?php echo ($data["track_name"]); ?></h2>
                                <p id="track_id"><?php echo ($data["track_roma"]); ?></p>
                                <hr/>
@@ -122,76 +122,91 @@
                                <section class="panel">
                                    <div class="panel-body no-padding table-responsive">
                                        <table class="table table-bordered table-striped no-margin">
-                                           <tbody><tr>
+                                           <tbody class="maidata-table"><tr>
                                                <td style="width: 200px; text-align: center; background-color: rgb(255, 255, 255);">
-                                               </td><td style="width: 200px; text-align: center; background-color: rgb(211, 239, 254);">蓝
-                                           </td><td style="width: 200px; text-align: center; background-color: rgb(170, 232, 186);">绿
-                                           </td><td style="width: 200px; text-align: center; background-color: rgb(249, 230, 170);">黄
-                                           </td><td style="width: 200px; text-align: center; background-color: rgb(240, 187, 202);">红
+                                               </td><td style="width: 200px; text-align: center; background-color: rgb(240, 187, 202);">红
                                            </td><td style="width: 200px; text-align: center; background-color: rgb(201, 169, 203);">紫
                                            </td><td style="width: 200px; text-align: center; background-color: rgb(220, 206, 221);">RE
+                                           </td><td style="width: 200px; text-align: center; background-color: rgb(211, 239, 254);">蓝
+                                           </td><td style="width: 200px; text-align: center; background-color: rgb(170, 232, 186);">绿
+                                           </td><td style="width: 200px; text-align: center; background-color: rgb(249, 230, 170);">黄
                                            </td></tr>
                                            <tr>
                                                <td style="width: 200px; text-align: center; background-color: rgb(229, 229, 229);">难易度
-                                               </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_easy"]); ?>
-                                           </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_basic"]); ?>
-                                           </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_advance"]); ?>
-                                           </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_expert"]); ?>
+                                               </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_expert"]); ?>
                                            </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_master"]); ?>
                                            </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_re"]); ?>
+                                           </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_easy"]); ?>
+                                           </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_basic"]); ?>
+                                           </td><td style="width: 200px; text-align: center;"><?php echo ($data["level_advance"]); ?>
                                            </td></tr>
                                            <tr>
                                                <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">TAP
-                                               </td><td style="text-align: center;"><?php echo ($data["level_easytap"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_basictap"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_advancetap"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_experttap"]); ?>
+                                               </td><td style="text-align: center;"><?php echo ($data["level_experttap"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_mastertap"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_retap"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_easytap"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_basictap"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_advancetap"]); ?>
                                            </td></tr>
                                            <tr>
                                                <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">HOLD
-                                               </td><td style="text-align: center;"><?php echo ($data["level_easyhold"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_basichold"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_advancehold"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_experthold"]); ?>
+                                               </td><td style="text-align: center;"><?php echo ($data["level_experthold"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_masterhold"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_rehold"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_easyhold"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_basichold"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_advancehold"]); ?>
                                            </td></tr>
                                            <tr>
                                                <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">SLIDE
-                                               </td><td style="text-align: center;"><?php echo ($data["level_easyslide"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_basicslide"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_advanceslide"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_expertslide"]); ?>
+                                               </td><td style="text-align: center;"><?php echo ($data["level_expertslide"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_masterslide"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_reslide"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_easyslide"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_basicslide"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_advanceslide"]); ?>
                                            </td></tr>
                                            <tr>
                                                <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">BREAK
-                                               </td><td style="text-align: center;"><?php echo ($data["level_easybreak"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_basicbreak"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_advancebreak"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_expertbreak"]); ?>
+                                               </td><td style="text-align: center;"><?php echo ($data["level_expertbreak"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_masterbreak"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_rebreak"]); ?>
-                                           </td><tr>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_easybreak"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_basicbreak"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_advancebreak"]); ?>
+                                           </td>
+                                           <tr>
                                                <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">COMBO
-                                               </td><td style="text-align: center;"><?php echo ($data["level_easycombo"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_basiccombo"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_advancecombo"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_expertcombo"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_mastercombo"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_recombo"]); ?>
-                                               <td/><tr>
+                                               </td>
+                                               <td style="text-align: center;"><?php echo ($data["level_expertcombo"]); ?>
+                                           </td>
+                                               <td style="text-align: center;"><?php echo ($data["level_mastercombo"]); ?>
+                                           </td>
+                                               <td style="text-align: center;"><?php echo ($data["level_recombo"]); ?>
+                                               </td>
+                                               <td style="text-align: center;"><?php echo ($data["level_easycombo"]); ?>
+                                           </td>
+                                               <td style="text-align: center;"><?php echo ($data["level_basiccombo"]); ?>
+                                           </td>
+                                               <td style="text-align: center;"><?php echo ($data["level_advancecombo"]); ?>
+                                           </td>
+                                           <tr>
                                                <td style="text-align: center; width: 200px; background-color: rgb(229, 229, 229);">理论值(%)
-                                               </td><td style="text-align: center;"><?php echo ($data["level_easyachievement"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_basicachievement"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_advanceachievement"]); ?>
-                                           </td><td style="text-align: center;"><?php echo ($data["level_expertachievement"]); ?>
+                                               </td><td style="text-align: center;"><?php echo ($data["level_expertachievement"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_masterachievement"]); ?>
                                            </td><td style="text-align: center;"><?php echo ($data["level_reachievement"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_easyachievement"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_basicachievement"]); ?>
+                                           </td><td style="text-align: center;"><?php echo ($data["level_advanceachievement"]); ?>
                                            </td></tr></tbody></table>
+
+
+
+
+                                   </div>
+                                   <div class="bg-primary panel-footer" id="info">
+                                       <h4>谱面视频来自<a href="http://www.bilibili.com/video/av1866841/"><p>B站的av1866841</p></a></h4>
                                    </div>
                                </section>
                            </div>
@@ -199,9 +214,11 @@
                            </div>
                        </div>
                        <div class="row">
+
+
+
                            <div class="col-md-11 " id="res">
-                               <h4>谱面视频施工中_(:з」∠)_</h4>
-                               <p>比较多要慢慢上传_(:з」∠)_</p>
+                                努力读取资源...
                            </div>
                        </div>
                    </div>
@@ -232,36 +249,127 @@
 
 
 <script>
-    function get_res(){
+//    function get_res(){
+//        $.ajax({
+//            type:"POST",
+//            url:"/index.php/Home/Index/get_res",
+//            dataType:"json",
+//            data:{
+//                track_id:$("#track_id").html()
+//            },
+//            success:function(data){
+//                var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
+//                if (data.msg == -1){
+//                    htmls.push('<p>暂时没有添加铺面视频_(:з」∠)_</p>');
+//                }
+//                else{
+//                    htmls.push('<video src="/index.php/Home/Index/get_video/maidata_id/'+data[0].maidata_id+'"  controls="controls">');
+//                    htmls.push('Your browser does not support the video tag.');
+//                    htmls.push('</video>');
+//                    htmls.push('<a href="/index.php/Home/Index/download_video/maidata_id/'+data[0].maidata_id+'" class="btn btn-success btn-block add-margin-xs">下载该视频</a>')
+//                }
+//                var div = '#res';
+//                $(div).html(htmls.join(''));
+//            },
+//            error:function(jqXHR){
+//                alert('好像获取资源失败了'+jqXHR.status);
+//            }
+//        })
+//
+//    }
+
+
+
+    function getArgs() {
+        var args = {};
+        var query = location.search.substring(1);
+        // Get query string
+        var pairs = query.split("&");
+        // Break at ampersand
+        for(var i = 0; i < pairs.length; i++) {
+            var pos = pairs[i].indexOf('=');
+            // Look for "name=value"
+            if (pos == -1) continue;
+            // If not found, skip
+            var argname = pairs[i].substring(0,pos);// Extract the name
+            var value = pairs[i].substring(pos+1);// Extract the value
+            value = decodeURIComponent(value);// Decode it, if needed
+            args[argname] = value;
+            // Store as a property
+        }
+        return args;// Return the object
+    }
+
+
+
+
+    function get_cid(){
         $.ajax({
-            type:"POST",
-            url:"/index.php/home/index/get_res",
+            type:"GET",
+            url:"http://bilibili-service.daoapp.io/view/1866841",
             dataType:"json",
-            data:{
-                track_id:$("#track_id").html()
-            },
             success:function(data){
-                var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
-                if (data.msg == -1){
-                    htmls.push('<p>暂时没有添加铺面视频_(:з」∠)_</p>');
+                //console.log(data.list[0]);
+                for(var i = 0; i < Object.keys(data.list).length; i++){
+                    var page_str = '<?php echo ($data["track_name"]); ?>';
+                    var json_str = data.list[i].part;
+                    page_str = page_str.replace(/[&\|\\\*^%$#@\-［］。！～・\. !’'\\·【】♪☆“”]/g,"");
+                    json_str = json_str.replace(/[&\|\\\*^%$#@\-［］。！～・\. !’'\\·【】♪☆“”]/g,"");
+                    if (page_str == json_str ){
+                        show_bilibili_video(data.list[i].cid);
+                        break;
+                    }
+                    else{
+                        var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
+                        htmls.push('<p>在av1866841暂时没有发现谱面视频_(:з」∠)_</p>');
+                        var div = '#res';
+                        $(div).html(htmls.join(''));
+                    }
                 }
-                else{
-                    htmls.push('<video src="/index.php/home/index/get_video/maidata_id/'+data[0].maidata_id+'"  controls="controls">');
-                    htmls.push('Your browser does not support the video tag.');
-                    htmls.push('</video>');
-                    htmls.push('<a href="/index.php/home/index/download_video/maidata_id/'+data[0].maidata_id+'" class="btn btn-success btn-block add-margin-xs">下载该视频</a>')
-                }
-                var div = '#res';
-                $(div).html(htmls.join(''));
-            },
-            error:function(jqXHR){
-                alert('好像获取资源失败了'+jqXHR.status);
+
             }
         })
+    }
+
+
+    function show_bilibili_video(cid)
+    {
+
+        $.ajax({
+            type:"GET",
+            url:"http://bilibili-service.daoapp.io/video/"+cid+"?quality=2",
+            dataType:"json",
+            success:function(data){
+                var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
+                console.log(data);
+                console.log(data.url);
+                htmls.push('<video src="'+data.url+'"  controls="controls">');
+                htmls.push('Your browser does not support the video tag.');
+                htmls.push('</video>');
+                htmls.push('<a href="'+data.url+'" class="btn btn-success btn-block add-margin-xs">下载该视频</a>')
+                var div = '#res';
+                $(div).html(htmls.join(''));
+            }
+        });
 
     }
 
     $(document).ready(function(){
-        //get_res();
+
+        get_cid();
+
+        var show_level = getArgs().show_level;
+
+        if (show_level){
+            $("#back_button").attr('href', '/index.php/Home/Index/index/level/'+show_level+'?h=<?php echo ($data["id"]); ?>');
+        }
+
+        $table = $(".maidata-table");
+
+        if (!$.trim($table.find('tr:eq('+7+')').find('td:eq(3)').html())){
+            for(var i = 0; i <=7; i++){
+                $table.find('tr:eq('+i+')').find('td:eq(3)').hide();
+            }
+        }
     })
 </script>

@@ -1,6 +1,8 @@
 /*mailist 自定义的css*/
 
-
+body{
+    font-family: Helvetica Neue,Helvetica,Arial,STHeiti,Microsoft Yahei,sans-serif;
+}
 
 .main-content {
     background: url('../img/maimai_bg.jpg') repeat;
@@ -92,6 +94,17 @@ video {
         width: 100%;
         display: block;
     }
+
+    .main-content .content-wrap {
+        padding: 1px;
+    }
+
+    .xs-topheading{
+        float:none;
+        margin: 0 13px;
+    }
+
+
 }
 
 .target-fix {
@@ -143,4 +156,28 @@ video {
     filter: Alpha(opacity=60);
 }
 
+img{
+    width: 78px;
+}
 
+.bg-success{
+     background-color: rgba(45, 203, 115, 0.81)
+ }
+
+.bg-primary{
+    background-color: rgba(23, 195, 229, 0.66)
+}
+
+#info{
+    margin-top: 25px;
+
+}
+
+#info h4 {
+    font-family: Helvetica Neue,Helvetica,Arial,STHeiti,Microsoft Yahei,sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+#info h4 a {
+    font-family: Helvetica Neue,Helvetica,Arial,STHeiti,Microsoft Yahei,sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}

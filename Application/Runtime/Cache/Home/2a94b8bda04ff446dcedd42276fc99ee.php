@@ -48,7 +48,7 @@
 
     <nav class="header navbar">
         <div class="brand orange" >
-            <a href="/index.php/home/index" class="navbar-brand">
+            <a href="/index.php/Home/Index" class="navbar-brand">
             <span class="heading-font">
                 maimai<b>PiNK</b>
             </span>
@@ -78,97 +78,154 @@
                 <!-- nva占位区间 -->
                 <div class="row">
                     <div class="col-md-12" style="margin-top: 60px">
-
+                    <div id="show_level" style="display: none;"><?php echo ($show_level); ?></div>
                     </div>
                 </div>
 
+
                 <div class="row">
-                    <div class="col-xs-12">
-                        <div class="input-group hidden-md hidden-lg">
-                            <div class="form-group container-center">
-                                <input type="text"  id= "words-xs" class="form-control words" placeholder="搜索罗马音或者曲名..." style="width:200px;">
-                                <a class="btn btn-warning">
-                                    <span class="glyphicon glyphicon-search" onclick="search('xs')"></span>
-                                </a>
+                    <div class="col-xs-12 xs-topheading">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="input-group hidden-md hidden-lg">
+                                    <div class="form-group container-center">
+                                        <input type="text"  id= "words-xs" class="form-control words" placeholder="搜索罗马音或者曲名..." style="width:200px;">
+                                        <a class="btn btn-warning">
+                                            <span class="glyphicon glyphicon-search" onclick="search('xs')"></span>
+                                        </a>
+                                    </div>
+                                </div><!-- /input-group -->
                             </div>
-                        </div><!-- /input-group -->
-                    </div>
-                </div>
+                        </div>
 
-                <div class="row">
-                    <div class="col-xs-12 hidden-lg hidden-md type-selection" >
-                        <!-- Single button -->
+                        <div class="row">
+                            <div class="col-xs-12 hidden-lg hidden-md type-selection" >
+                                <!-- Single button -->
 
-                            <div class="row">
-                                <div class="col-xs-4">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            选择类别 <span class="caret"></span>
-                                        </button>
-                                        <ul class="dropdown-menu">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                选择类别 <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu">
 
-                                            <li class="hidden-list"><a >显示全部</a></li>
+                                                <li class="hidden-list"><a >显示全部</a></li>
 
-                                            <li class="hidden-list"><a  >東方project</a></li>
+                                                <li class="hidden-list"><a  >東方project</a></li>
 
-                                            <li class="hidden-list"><a  >niconico & VOCALOID</a></li>
+                                                <li class="hidden-list"><a  >niconico & VOCALOID</a></li>
 
-                                            <li class="hidden-list"> <a  >POPS & ANIME</a></li>
+                                                <li class="hidden-list"> <a  >POPS & ANIME</a></li>
 
-                                            <li class="hidden-list"> <a  >SEGA</a></li>
+                                                <li class="hidden-list"> <a  >SEGA</a></li>
 
-                                            <li class="hidden-list"> <a >GAME & VARIRTY</a></li>
+                                                <li class="hidden-list"> <a >GAME & VARIRTY</a></li>
 
-                                            <li class="hidden-list"> <a  >ORIGINAL & JOYPOLIS</a></li>
-                                        </ul>
+                                                <li class="hidden-list"> <a  >ORIGINAL & JOYPOLIS</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <p style="margin-top: 9px; color: #0480be;"><u id="about-xs">有关这个wiki</u></p>
+                                    </div>
+
+                                    <div class="col-xs-6">
+                                        <div class="btn-group show-on-hover ">
+                                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">筛选等级
+                                                <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li>
+                                                    <a href="/Home/Index/index/level/9">9</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/Home/Index/index/level/10">10</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/Home/Index/index/level/11">11</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/Home/Index/index/level/12">12</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/Home/Index/index/">全部</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6 hidden-xs" id="type-area">
+                                <section class="panel">
+                                    <header class="panel-heading">选择类别：
+
+                                    </header>
+                                    <div class="panel-body">
+                                        <div class="demo-button list-buttons">
+                                            <!-- Standard button 按照顺序list1~list6显示分类 -->
+                                            <ul>
+
+                                                <li class="hidden-list"><a  class="btn btn-default btn-rounded" name="head">显示全部</a></li>
+
+                                                <li class="hidden-list"><a  class="btn btn-primary btn-rounded ">東方project</a></li>
+
+                                                <li class="hidden-list"><a  class="btn btn-success btn-rounded">niconico & VOCALOID</a></li>
+
+                                                <li class="hidden-list"> <a  class="btn btn-info btn-rounded" >POPS & ANIME</a></li>
+
+                                                <li class="hidden-list"> <a  class="btn btn-warning btn-rounded" >SEGA</a></li>
+
+                                                <li class="hidden-list"> <a  class="btn btn-danger btn-rounded">GAME & VARIRTY</a></li>
+
+                                                <li class="hidden-list"> <a  class="btn btn-warning btn-rounded" >ORIGINAL & JOYPOLIS</a></li>
+
+                                                <li><div class="btn-group btn-rounded show-on-hover ">
+                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">筛选等级（master）
+                                                        <span class="caret"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li>
+                                                            <a href="/Home/Index/index/level/9">9</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/Home/Index/index/level/10">10</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/Home/Index/index/level/11">11</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/Home/Index/index/level/12">12</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/Home/Index/index/">全部</a>
+                                                        </li>
+                                                    </ul>
+                                                </div></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-md-6 col-xs-12 hidden-xs" id="about">
+                                <div class="panel panel-warning">
+                                    <div class="panel panel-heading no-margin">About</div>
+                                    <div class="panel-body">
+                                        <p><i class="fa fa-circle text-primary mg-r-xs"></i>一个maimai的自制wiki,数据摘自fc2上maimai的数据</p>
+                                        <p><i class="fa fa-circle text-primary mg-r-xs"></i>内容更新到pink（2016年4月）:)</p>
+                                        <p><i class="fa fa-circle text-primary mg-r-xs"></i><a href="http://weibo.com/axer1226" style="color: #0480be" target="_blank">微博火石axer</a>有什么想添加的或者建议可以私信:)</p>
+                                        <p><i class="fa fa-circle text-primary mg-r-xs"></i><a href="http://www.marisago.com" style="color: #0480be" target="_blank">顺便看手元的话youtube是最好啦，想上可以试试po主的小梯子，自动出墙也不是什么问题:)</a></p>
                                     </div>
                                 </div>
-                                <div class="col-xs-6">
-                                        <p style="margin-top: 9px; color: #0480be;"><u id="about-xs">有关这个wiki</u></p>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-md-6 hidden-xs" id="type-area">
-                        <section class="panel">
-                            <header class="panel-heading">选择类别：
-
-                            </header>
-                            <div class="panel-body">
-                                <div class="demo-button list-buttons">
-                                    <!-- Standard button 按照顺序list1~list6显示分类 -->
-                                    <ul>
-
-                                        <li class="hidden-list"><a  class="btn btn-default btn-rounded" name="head">显示全部</a></li>
-
-                                        <li class="hidden-list"><a  class="btn btn-primary btn-rounded ">東方project</a></li>
-
-                                        <li class="hidden-list"><a  class="btn btn-success btn-rounded">niconico & VOCALOID</a></li>
-
-                                        <li class="hidden-list"> <a  class="btn btn-info btn-rounded" >POPS & ANIME</a></li>
-
-                                        <li class="hidden-list"> <a  class="btn btn-warning btn-rounded" >SEGA</a></li>
-
-                                        <li class="hidden-list"> <a  class="btn btn-danger btn-rounded">GAME & VARIRTY</a></li>
-
-                                        <li class="hidden-list"> <a  class="btn btn-warning btn-rounded" >ORIGINAL & JOYPOLIS</a></li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="col-md-6 col-xs-12 hidden-xs" id="about">
-                        <div class="panel panel-warning">
-                            <div class="panel panel-heading no-margin">About</div>
-                            <div class="panel-body">
-                                <p><i class="fa fa-circle text-primary mg-r-xs"></i>一个maimai的自制wiki,数据摘自fc2上maimai的数据</p>
-                                <p><i class="fa fa-circle text-primary mg-r-xs"></i>内容更新到pink（2016年4月）:)</p>
-                                <p><i class="fa fa-circle text-primary mg-r-xs"></i><a href="http://weibo.com/axer1226" style="color: #0480be" target="_blank">微博火石axer</a>有什么想添加的或者建议可以私信:)</p>
-                                <p><i class="fa fa-circle text-primary mg-r-xs"></i><a href="http://www.marisago.com" style="color: #0480be" target="_blank">顺便看手元的话youtube是最好啦，想上可以试试po主的小梯子，自动出墙也不是什么问题:)</a></p>
                             </div>
                         </div>
                     </div>
+
                 </div>
+
 
                 <div class="row" id="list-container">
 
@@ -498,14 +555,14 @@
         if ($(inputbox).val() != 0){
             $.ajax({
                 type:"POST",
-                url:"/index.php/home/index/search",
+                url:"/index.php/Home/Index/search",
                 dataType:"json",
                 data:{
                     words:$(inputbox).val()
                 },
                 success:function(data){
                     if(data[0].msg == 1){
-                        //window.location.href = '/index.php/home/index/detail/id/'+data[0].id;
+                        //window.location.href = '/index.php/Home/Index/detail/id/'+data[0].id;
                         _pushdata(data,'search-result');
                         $("#search-list").modal('show');
                         //godetail(data[0].id);
@@ -531,7 +588,7 @@
     function list(track_type,table_div){
         $.ajax({
             type:"POST",
-            url:"/index.php/home/index/readlist",
+            url:"/index.php/Home/Index/readlist",
             dataType:"json",
             data:{
                 track_type:track_type
@@ -608,7 +665,16 @@
     }
 
     function godetail(id){
-        window.location.href = '/index.php/home/index/detail/id/'+id;
+
+        $show_level = $("#show_level").html();
+
+        if($show_level){
+            window.location.href = '/index.php/Home/Index/detail/id/'+id+'?show_level='+$show_level;
+        }
+        else{
+            window.location.href = '/index.php/Home/Index/detail/id/'+id;
+        }
+
     }
 
     //获取url参数
@@ -633,7 +699,12 @@
         return args;// Return the object
     }
 
+
+
+
+
     $(document).ready(function(){
+
         //showlist();
         $("#about-xs").click(function(){
             $("#about").attr("class","col-md-6 col-xs-12");
@@ -673,7 +744,9 @@
         });
 
         setTimeout(function(){
-            window.location.href = "#"+getArgs().h;
+            if(getArgs().h){
+                window.location.href = "#"+getArgs().h;
+            }
         },1);
 
 

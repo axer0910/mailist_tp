@@ -5,10 +5,17 @@ use ORG\Net;
 class IndexController extends Controller
 {
 
-    public function index()
+    public function index($level = 0)
     {
         $cond['track_type'] = I('post.track_type');
-        $maidata = M('maidata')->select();
+
+        if($level){
+            $maidata = M('maidata')->where(['level_master' => $level])->select();
+            $this->assign('show_level', $level);
+        }
+        else{
+            $maidata = M('maidata')->select();
+        }
         foreach($maidata as $t){
             $type[] = $t['track_type'];
             $aaa[$t['track_type']][] = [];//以track_type中的内容为键值初始化一个二位数组
@@ -52,6 +59,7 @@ class IndexController extends Controller
 
         $this->assign('list', $aaa);
         $this->display();
+
         //$this->ajaxReturn($maidata);
     }
 

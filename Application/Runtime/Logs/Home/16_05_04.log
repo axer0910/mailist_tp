@@ -1,0 +1,12 @@
+[ 2016-05-04T18:50:43+08:00 ] ::1 /index.php/home/index?h=130
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-05-04T18:50:47+08:00 ] ::1 /index.php/home/index?h=130
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
