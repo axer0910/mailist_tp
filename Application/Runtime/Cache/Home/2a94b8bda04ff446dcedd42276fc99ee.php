@@ -48,7 +48,7 @@
 
     <nav class="header navbar">
         <div class="brand orange" >
-            <a href="/index.php/Home/Index" class="navbar-brand">
+            <a href="/index.php/home/index" class="navbar-brand">
             <span class="heading-font">
                 maimai<b>PiNK</b>
             </span>
@@ -138,19 +138,19 @@
                                             </button>
                                             <ul class="dropdown-menu" role="menu">
                                                 <li>
-                                                    <a href="/Home/Index/index/level/9">9</a>
+                                                    <a href="/index.php/home/index/index/level/9">9</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/Home/Index/index/level/10">10</a>
+                                                    <a href="/index.php/home/index/index/level/10">10</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/Home/Index/index/level/11">11</a>
+                                                    <a href="/index.php/home/index/index/level/11">11</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/Home/Index/index/level/12">12</a>
+                                                    <a href="/index.php/home/index/index/level/12">12</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/Home/Index/index/">全部</a>
+                                                    <a href="/index.php/home/index/index/">全部</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -555,14 +555,14 @@
         if ($(inputbox).val() != 0){
             $.ajax({
                 type:"POST",
-                url:"/index.php/Home/Index/search",
+                url:"/index.php/home/index/search",
                 dataType:"json",
                 data:{
                     words:$(inputbox).val()
                 },
                 success:function(data){
                     if(data[0].msg == 1){
-                        //window.location.href = '/index.php/Home/Index/detail/id/'+data[0].id;
+                        //window.location.href = '/index.php/home/index/detail/id/'+data[0].id;
                         _pushdata(data,'search-result');
                         $("#search-list").modal('show');
                         //godetail(data[0].id);
@@ -588,7 +588,7 @@
     function list(track_type,table_div){
         $.ajax({
             type:"POST",
-            url:"/index.php/Home/Index/readlist",
+            url:"/index.php/home/index/readlist",
             dataType:"json",
             data:{
                 track_type:track_type
@@ -669,10 +669,10 @@
         $show_level = $("#show_level").html();
 
         if($show_level){
-            window.location.href = '/index.php/Home/Index/detail/id/'+id+'?show_level='+$show_level;
+            window.location.href = '/index.php/home/index/detail/id/'+id+'?show_level='+$show_level;
         }
         else{
-            window.location.href = '/index.php/Home/Index/detail/id/'+id;
+            window.location.href = '/index.php/home/index/detail/id/'+id;
         }
 
     }
