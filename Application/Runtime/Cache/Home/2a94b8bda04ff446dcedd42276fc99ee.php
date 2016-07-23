@@ -188,19 +188,19 @@
                                                     </button>
                                                     <ul class="dropdown-menu" role="menu">
                                                         <li>
-                                                            <a href="/Home/Index/index/level/9">9</a>
+                                                            <a href="/index.php/home/index/index/level/9">9</a>
                                                         </li>
                                                         <li>
-                                                            <a href="/Home/Index/index/level/10">10</a>
+                                                            <a href="/index.php/home/index/index/level/10">10</a>
                                                         </li>
                                                         <li>
-                                                            <a href="/Home/Index/index/level/11">11</a>
+                                                            <a href="/index.php/home/index/index/level/11">11</a>
                                                         </li>
                                                         <li>
-                                                            <a href="/Home/Index/index/level/12">12</a>
+                                                            <a href="/index.php/home/index/index/level/12">12</a>
                                                         </li>
                                                         <li>
-                                                            <a href="/Home/Index/index/">全部</a>
+                                                            <a href="/index.php/home/index/index/">全部</a>
                                                         </li>
                                                     </ul>
                                                 </div></li>

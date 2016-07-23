@@ -46,7 +46,7 @@
     <!-- top header -->
     <header class="header navbar">
         <div class="brand orange">
-            <a href="/index.php/Home/Index" class="navbar-brand">
+            <a href="/index.php/home/index" class="navbar-brand">
                 <span class="heading-font">
                     maimai<b>PiNK</b>
                 </span>
@@ -69,7 +69,7 @@
                    <div class="col-md-9 container-center">
                        <div class="row mg-b">
                            <div class="col-xs-12">
-                               <a class="btn btn-success" href="/index.php/Home/Index?h=<?php echo ($data["id"]); ?>" id="back_button">&nbsp;<&nbsp;返回列表</a>
+                               <a class="btn btn-success" href="/index.php/home/index?h=<?php echo ($data["id"]); ?>" id="back_button">&nbsp;<&nbsp;返回列表</a>
                                <h2 class="" style="font-family: SimHei;"><?php echo ($data["track_name"]); ?></h2>
                                <p id="track_id"><?php echo ($data["track_roma"]); ?></p>
                                <hr/>
@@ -252,7 +252,7 @@
 //    function get_res(){
 //        $.ajax({
 //            type:"POST",
-//            url:"/index.php/Home/Index/get_res",
+//            url:"/index.php/home/index/get_res",
 //            dataType:"json",
 //            data:{
 //                track_id:$("#track_id").html()
@@ -263,10 +263,10 @@
 //                    htmls.push('<p>暂时没有添加铺面视频_(:з」∠)_</p>');
 //                }
 //                else{
-//                    htmls.push('<video src="/index.php/Home/Index/get_video/maidata_id/'+data[0].maidata_id+'"  controls="controls">');
+//                    htmls.push('<video src="/index.php/home/index/get_video/maidata_id/'+data[0].maidata_id+'"  controls="controls">');
 //                    htmls.push('Your browser does not support the video tag.');
 //                    htmls.push('</video>');
-//                    htmls.push('<a href="/index.php/Home/Index/download_video/maidata_id/'+data[0].maidata_id+'" class="btn btn-success btn-block add-margin-xs">下载该视频</a>')
+//                    htmls.push('<a href="/index.php/home/index/download_video/maidata_id/'+data[0].maidata_id+'" class="btn btn-success btn-block add-margin-xs">下载该视频</a>')
 //                }
 //                var div = '#res';
 //                $(div).html(htmls.join(''));
@@ -308,6 +308,7 @@
             type:"GET",
             url:"http://bilibili-service.daoapp.io/view/1866841",
             dataType:"json",
+            async:"false",
             success:function(data){
                 //console.log(data.list[0]);
                 for(var i = 0; i < Object.keys(data.list).length; i++){
@@ -317,16 +318,13 @@
                     json_str = json_str.replace(/[&\|\\\*^%$#@\-［］。！～・\. !’'\\·【】♪☆“”]/g,"");
                     if (page_str == json_str ){
                         show_bilibili_video(data.list[i].cid);
-                        break;
-                    }
-                    else{
-                        var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
-                        htmls.push('<p>在av1866841暂时没有发现谱面视频_(:з」∠)_</p>');
-                        var div = '#res';
-                        $(div).html(htmls.join(''));
+                        return;
                     }
                 }
-
+                var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
+                htmls.push('<p>在av1866841暂时没有发现谱面视频_(:з」∠)_</p>');
+                var div = '#res';
+                $(div).html(htmls.join(''));
             }
         })
     }
@@ -361,7 +359,7 @@
         var show_level = getArgs().show_level;
 
         if (show_level){
-            $("#back_button").attr('href', '/index.php/Home/Index/index/level/'+show_level+'?h=<?php echo ($data["id"]); ?>');
+            $("#back_button").attr('href', '/index.php/home/index/index/level/'+show_level+'?h=<?php echo ($data["id"]); ?>');
         }
 
         $table = $(".maidata-table");

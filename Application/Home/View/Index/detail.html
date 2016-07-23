@@ -252,6 +252,7 @@
             type:"GET",
             url:"http://bilibili-service.daoapp.io/view/1866841",
             dataType:"json",
+            async:"false",
             success:function(data){
                 //console.log(data.list[0]);
                 for(var i = 0; i < Object.keys(data.list).length; i++){
@@ -261,16 +262,13 @@
                     json_str = json_str.replace(/[&\|\\\*^%$#@\-［］。！～・\. !’'\\·【】♪☆“”]/g,"");
                     if (page_str == json_str ){
                         show_bilibili_video(data.list[i].cid);
-                        break;
-                    }
-                    else{
-                        var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
-                        htmls.push('<p>在av1866841暂时没有发现谱面视频_(:з」∠)_</p>');
-                        var div = '#res';
-                        $(div).html(htmls.join(''));
+                        return;
                     }
                 }
-
+                var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
+                htmls.push('<p>在av1866841暂时没有发现谱面视频_(:з」∠)_</p>');
+                var div = '#res';
+                $(div).html(htmls.join(''));
             }
         })
     }

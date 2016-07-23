@@ -2,6 +2,7 @@
 
 body{
     font-family: Helvetica Neue,Helvetica,Arial,STHeiti,Microsoft Yahei,sans-serif;
+
 }
 
 .main-content {
@@ -93,6 +94,11 @@ video {
         height: 100%;
         width: 100%;
         display: block;
+
+    }
+
+    :-webkit-full-screen video{
+        transform: rotate(90deg);
     }
 
     .main-content .content-wrap {
@@ -101,7 +107,7 @@ video {
 
     .xs-topheading{
         float:none;
-        margin: 0 13px;
+        padding: 0 30px;
     }
 
 
@@ -181,3 +187,8 @@ img{
     font-family: Helvetica Neue,Helvetica,Arial,STHeiti,Microsoft Yahei,sans-serif;
     color: rgba(255, 255, 255, 0.8);
 }
+
+
+
+
+
