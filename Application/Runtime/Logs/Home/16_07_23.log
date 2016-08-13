@@ -902,3 +902,69 @@ ERR: 无法加载控制器:StartQuiz
 [ 2016-07-23T13:16:06+08:00 ] ::1 /index.php/home/index/jo
 ERR: 非法操作:jo
 
+[ 2016-07-23T15:10:33+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:10:35+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:10:36+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:10:36+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:10:36+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:10:36+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:10:57+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:10:57+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:10:58+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:11:20+08:00 ] ::1 /Home/
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+
+[ 2016-07-23T15:11:23+08:00 ] ::1 /
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `maidata`
+

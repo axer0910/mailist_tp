@@ -5,8 +5,37 @@ use ORG\Net;
 class IndexController extends Controller
 {
 
+    public function visitor_count()
+    {
+        $visitor = M('visitor_count');
+        $data = [];
+        if (!cookie('user_ip')){
+            $ip = get_client_ip();
+            $Ip = new \Org\Net\IpLocation('UTFWry.dat');
+            $location_info = $Ip->getlocation($ip);
+            $location_info = $location_info['country'] . $location_info['area'];
+            $data['ip_location'] = $location_info;
+            $data['ip_address'] = $ip;
+            header("Content-type: text/html; charset=utf-8");
+            cookie('user_ip', $ip, 36000);
+            $visitor->add($data);
+
+        }
+//        var_dump($visitor->max('visitor_count'));
+
+        return $visitor->max('visitor_count');
+
+         // cookie('user_ip', null);
+
+    }
+
+
     public function index($level = 0)
     {
+
+
+
+
         $cond['track_type'] = I('post.track_type');
 
         if($level){
@@ -58,6 +87,7 @@ class IndexController extends Controller
         }
 
         $this->assign('list', $aaa);
+        $this->assign('visitor_count', $this->visitor_count());
         $this->display();
 
         //$this->ajaxReturn($maidata);

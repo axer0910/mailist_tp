@@ -340,11 +340,11 @@
             success:function(data){
                 var htmls = ['<h4 style="font-family: SimHei;">谱面视频（Master）</h4>'];
                 console.log(data);
-                console.log(data.url);
-                htmls.push('<video src="'+data.url+'"  controls="controls">');
+                //console.log(data.url);
+                htmls.push('<video src="'+data.durl[0].url+'"  controls="controls">');
                 htmls.push('Your browser does not support the video tag.');
                 htmls.push('</video>');
-                htmls.push('<a href="'+data.url+'" class="btn btn-success btn-block add-margin-xs">下载该视频</a>')
+                htmls.push('<a href="'+data.durl[0].url+'" class="btn btn-success btn-block add-margin-xs">下载该视频</a>')
                 var div = '#res';
                 $(div).html(htmls.join(''));
             }

@@ -10,5 +10,7 @@ return array(
     'DB_PORT'=>3306,// 端口
     'DB_PREFIX'=>'',// 数据库表前缀
     'DB_CHARSET'=>'utf8',// 数据库字符集
-    'URL_HTML_SUFFIX'	=> '.html'
+    'URL_HTML_SUFFIX'	=> '.html',
+
+
 );

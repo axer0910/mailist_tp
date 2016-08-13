@@ -48,7 +48,7 @@
 
     <nav class="header navbar">
         <div class="brand orange" >
-            <a href="/index.php/home/index" class="navbar-brand">
+            <a href="/index.php/Home/Index" class="navbar-brand">
             <span class="heading-font">
                 maimai<b>PiNK</b>
             </span>
@@ -138,19 +138,19 @@
                                             </button>
                                             <ul class="dropdown-menu" role="menu">
                                                 <li>
-                                                    <a href="/index.php/home/index/index/level/9">9</a>
+                                                    <a href="/index.php/Home/Index/index/level/9">9</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/index.php/home/index/index/level/10">10</a>
+                                                    <a href="/index.php/Home/Index/index/level/10">10</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/index.php/home/index/index/level/11">11</a>
+                                                    <a href="/index.php/Home/Index/index/level/11">11</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/index.php/home/index/index/level/12">12</a>
+                                                    <a href="/index.php/Home/Index/index/level/12">12</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/index.php/home/index/index/">全部</a>
+                                                    <a href="/index.php/Home/Index/index/">全部</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -188,19 +188,19 @@
                                                     </button>
                                                     <ul class="dropdown-menu" role="menu">
                                                         <li>
-                                                            <a href="/index.php/home/index/index/level/9">9</a>
+                                                            <a href="/index.php/Home/Index/index/level/9">9</a>
                                                         </li>
                                                         <li>
-                                                            <a href="/index.php/home/index/index/level/10">10</a>
+                                                            <a href="/index.php/Home/Index/index/level/10">10</a>
                                                         </li>
                                                         <li>
-                                                            <a href="/index.php/home/index/index/level/11">11</a>
+                                                            <a href="/index.php/Home/Index/index/level/11">11</a>
                                                         </li>
                                                         <li>
-                                                            <a href="/index.php/home/index/index/level/12">12</a>
+                                                            <a href="/index.php/Home/Index/index/level/12">12</a>
                                                         </li>
                                                         <li>
-                                                            <a href="/index.php/home/index/index/">全部</a>
+                                                            <a href="/index.php/Home/Index/index/">全部</a>
                                                         </li>
                                                     </ul>
                                                 </div></li>
@@ -218,6 +218,7 @@
                                         <p><i class="fa fa-circle text-primary mg-r-xs"></i>内容更新到pink（2016年4月）:)</p>
                                         <p><i class="fa fa-circle text-primary mg-r-xs"></i><a href="http://weibo.com/axer1226" style="color: #0480be" target="_blank">微博火石axer</a>有什么想添加的或者建议可以私信:)</p>
                                         <p><i class="fa fa-circle text-primary mg-r-xs"></i><a href="http://www.marisago.com" style="color: #0480be" target="_blank">顺便看手元的话youtube是最好啦，想上可以试试po主的小梯子，自动出墙也不是什么问题:)</a></p>
+                                        <p><i class="fa fa-circle text-primary mg-r-xs"></i>访客统计：<?php echo ($visitor_count); ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -555,14 +556,14 @@
         if ($(inputbox).val() != 0){
             $.ajax({
                 type:"POST",
-                url:"/index.php/home/index/search",
+                url:"/index.php/Home/Index/search",
                 dataType:"json",
                 data:{
                     words:$(inputbox).val()
                 },
                 success:function(data){
                     if(data[0].msg == 1){
-                        //window.location.href = '/index.php/home/index/detail/id/'+data[0].id;
+                        //window.location.href = '/index.php/Home/Index/detail/id/'+data[0].id;
                         _pushdata(data,'search-result');
                         $("#search-list").modal('show');
                         //godetail(data[0].id);
@@ -588,7 +589,7 @@
     function list(track_type,table_div){
         $.ajax({
             type:"POST",
-            url:"/index.php/home/index/readlist",
+            url:"/index.php/Home/Index/readlist",
             dataType:"json",
             data:{
                 track_type:track_type
@@ -669,10 +670,10 @@
         $show_level = $("#show_level").html();
 
         if($show_level){
-            window.location.href = '/index.php/home/index/detail/id/'+id+'?show_level='+$show_level;
+            window.location.href = '/index.php/Home/Index/detail/id/'+id+'?show_level='+$show_level;
         }
         else{
-            window.location.href = '/index.php/home/index/detail/id/'+id;
+            window.location.href = '/index.php/Home/Index/detail/id/'+id;
         }
 
     }
