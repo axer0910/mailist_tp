@@ -165,6 +165,7 @@
                                    </div>
                                    <div class="bg-primary panel-footer" id="info">
                                        <h4>谱面视频来自<a href="http://www.bilibili.com/video/av1866841/"><p>B站的av1866841</p></a></h4>
+                                       <h4>手机上全屏横过来看谱面效果更佳哦</h4>
                                    </div>
                                </section>
                            </div>
@@ -172,9 +173,6 @@
                            </div>
                        </div>
                        <div class="row">
-
-
-
                            <div class="col-md-11 " id="res">
                                 努力读取资源...
                            </div>
@@ -288,7 +286,7 @@
                 htmls.push('<video src="'+data.durl[0].url+'"  controls="controls">');
                 htmls.push('Your browser does not support the video tag.');
                 htmls.push('</video>');
-                htmls.push('<a href="'+data.durl[0].url+'" class="btn btn-success btn-block add-margin-xs">下载该视频</a>')
+                htmls.push('<a href="'+data.durl[0].url+'" class="btn btn-success btn-block add-margin-xs">下载该视频（右键另存为下载哦）</a>')
                 var div = '#res';
                 $(div).html(htmls.join(''));
             }
