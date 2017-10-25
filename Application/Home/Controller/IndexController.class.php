@@ -34,8 +34,8 @@ class IndexController extends Controller
     {
 
 
-
-
+        header("location: http://ali01.marisago.com:8085");
+        exit;
         $cond['track_type'] = I('post.track_type');
 
         if($level){
